@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("foto_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72c7dc4cf30692c92d0ec33ec63956384e1a3c6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2362f392ddb6ccf9654c124bb26caf985e402a1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("foto_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("foto_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

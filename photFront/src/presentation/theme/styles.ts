@@ -4,13 +4,12 @@ import { Button, Dimensions, StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f5f5f5',
     paddingHorizontal: 20, // Agregar espacio horizontal
+    marginTop: 20, // Agregar espacio superior
   },
   topButtonContainer: {
-    position: 'absolute',
     top: 40,
     width: '100%',
     alignItems: 'center',
@@ -19,7 +18,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 100, // Ajustar según sea necesario para espaciar el botón superior
+    marginTop: 20, // Ajustar según sea necesario para espaciar el botón superior
   },
   image: {
     width: 200,
@@ -32,12 +31,14 @@ export const styles = StyleSheet.create({
     padding: 10,
     marginVertical: 10,
     borderRadius: 5,
+    width: 200,
   },
   textButton: {
     color: '#fff',
     textAlign: 'center',
   },
   imageContainer: {
+    marginTop: 20,
     flex: 1,
     margin: 5,
   },
@@ -53,6 +54,21 @@ export const styles = StyleSheet.create({
     color: '#3498db',
     textAlign: 'center',
   },
-
+  buttonDisabled: {
+    backgroundColor: 'grey',
+    },
+    button3: {
+    backgroundColor: '#a6483e',
+    padding: 10,
+    marginVertical: 10,
+    borderRadius: 5,
+  },
+  button4: {
+    backgroundColor: '#db9e34',
+    padding: 10,
+    marginVertical: 10,
+    borderRadius: 5,
+    width: 200,
+  },
   
 });
